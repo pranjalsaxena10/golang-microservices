@@ -1,0 +1,9 @@
+# Commenting Binaries for programs
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
