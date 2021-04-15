@@ -1,8 +1,8 @@
-package main
+package model
 
 type User struct {
-	Id uint64
-	FirstName string
-	LastName string
-	Email string
+	Id 			uint64 `json:"id"`
+	FirstName 	string `json:"firstName"`
+	LastName 	string `json:"lastName"`
+	Email 		string `json:"emailAddress"`
 }
